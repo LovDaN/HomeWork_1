@@ -38,10 +38,15 @@ namespace HomeWork_1
         static void Task_2()
         {
             int max;
+
             Console.WriteLine("Введите первое число: ");
+
             int firstValue = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Введите второе число: ");
+
             int secondValue = int.Parse(Console.ReadLine());
+
             if (firstValue < secondValue)
             {
                 max = secondValue;
