@@ -32,12 +32,11 @@ namespace HomeWork_1
                     Console.WriteLine("Вы ввели неверное значение");
                     break;
             }
-            Task_8();
         }
 
         static void Task_2()
         {
-            int max;
+            int max, min;
 
             Console.WriteLine("Введите первое число: ");
 
@@ -50,12 +49,14 @@ namespace HomeWork_1
             if (firstValue < secondValue)
             {
                 max = secondValue;
+                min = firstValue;
             }
             else
             {
                 max = firstValue;
+                min = secondValue;
             }
-            Console.WriteLine(max);
+            Console.WriteLine("Максимальное число: " + max + " Минимальное число: " + min);
         }//Программа, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
         static void Task_4()
@@ -89,7 +90,7 @@ namespace HomeWork_1
             {
                 max = firstValue;
             }
-            Console.WriteLine(max);
+            Console.WriteLine("Максимальное число: " + max);
         }//Программа, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
         static void Task_6()
